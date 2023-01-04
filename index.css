@@ -1,0 +1,140 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: skyblue;
+  font-family: sans-serif;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.navigation a {
+  text-decoration: none;
+}
+#nav-one {
+  color: blue;
+}
+.transport {
+  display: flex;
+  flex-direction: row;
+}
+.text-section {
+  width: 600px;
+  margin-top: 5%;
+  margin-right: 0%;
+  margin-left: 6%;
+}
+.text-section h1 {
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.text-section strong {
+  color: blue;
+}
+.text-section p {
+  margin-top: 5px;
+  line-height: 1.5em;
+}
+.input-section {
+  margin-top: 8%;
+}
+input {
+  padding: 10px 18px;
+  border-style: none;
+  border-radius: 2px;
+}
+button {
+  margin-left: 16px;
+  padding: 10px 14px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+.first-image {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.why-use-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.text-section2 {
+  margin-top: 12%;
+}
+.why-use-section h1 {
+  line-height: 1em;
+}
+.why-use-section p {
+  line-height: 1.5em;
+  margin-top: 16px;
+}
+.vital-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  justify-content: space-between;
+}
+#div-box {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 8px;
+}
+#all-h3 {
+  margin: 16px;
+}
+#all-uder-text {
+  margin-left: 16px;
+  margin-right: 16px;
+  line-height: 1.5em;
+  margin-bottom: 24px;
+  font-size: small;
+}
+#under-links {
+  text-decoration: none;
+  color: blue;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.question-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-section3 {
+  width: 600px;
+  margin-top: 10%;
+  margin-right: 0%;
+  margin-left: 6%;
+}
+.text-section3 strong {
+  color: blue;
+}
+.text-section3 p {
+  margin-top: 5px;
+  line-height: 1.5em;
+}
+.input-section2 {
+  margin-top: 5%;
+}
+.third-img {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+footer {
+  height: 100px;
+}
